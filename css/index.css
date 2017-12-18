@@ -1,6 +1,7 @@
 body {
   font-size: 1em;
-  background: #444;
+  background-image: url("../img/bg/star.gif");
+  background-repeat: repeat;
   font-family: Arial, Verdana, sans-serif; }
 
 .nav {
