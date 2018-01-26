@@ -1,14 +1,13 @@
 .nav {
     position: fixed;
-    width: 10em;
+    min-width: 10em;
     height: auto;
     margin: 4em auto 0;
     font-size: 1em;
     line-height: 2em;
     color: #fff;
     font-weight:200;
-    position: absolute;
-    top: 0;
+    top: -4em;
     bottom: 0;
     left: -6em;
 
