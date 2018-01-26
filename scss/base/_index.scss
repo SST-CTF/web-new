@@ -1,9 +1,9 @@
 body {
     font-size: 1em;
-    background-image: url("../img/bg/star.gif");
+    background-image: url("../img/bg/hex.png");
     background-attachment: fixed;
     background-repeat: repeat;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: 'Roboto', Arial, Verdana, sans-serif;
     margin: 0;
 }
 
@@ -14,14 +14,21 @@ body {
     height: 1000px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
-    @media screen and (max-width: 800px) {
-        
-    }
-
     .banner {
-        height: 10em;
-        background-color: blue;
+        height: 8em;
+        background-image: url("../img/bg/hex1.png");
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            color: #DFDFDF;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Roboto', Arial, Verdana, sans-serif;
+            letter-spacing: 10px;
+        }
     }
 }
 
